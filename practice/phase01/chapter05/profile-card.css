@@ -1,0 +1,59 @@
+/* 1. 전체 크기 계산 통일 */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. 페이지 기본 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* 3. 자기소개 카드 */
+.profile-card {
+    width: 90%;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 24px;
+
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+}
+
+/* 4. 이름 */
+h1 {
+    font-size: 28px;
+    color: #0f766e;
+}
+
+/* 5. 관심 기술 */
+.skill {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    border: 1px solid #0f766e;
+    border-radius: 6px;
+    background-color: #ecfeff;
+}
+
+/* 6. 목표 */
+.goal {
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+/* 7. GitHub 버튼 */
+.button-link {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 12px;
+
+    background-color: #0f766e;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
