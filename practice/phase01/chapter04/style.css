@@ -1,0 +1,69 @@
+/* 1. 부모 요소 - 상속의 시작점 */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f8fafc;
+
+    /* 자식에게 상속되는 속성 */
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. 상단 제목 영역 */
+header {
+    background-color: #3f3f3f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* 3. 제목 */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* 4. 회원 카드 */
+.member-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* 5. 회원가입 폼 */
+#signup-form {
+    background-color: #f8fafc;
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+/* 6. 회원가입 제목 */
+#signup-form h2 {
+    font-size: 22px;
+}
+
+/* 7. 문단 */
+p {
+    line-height: 1.6;
+}
+
+/* 7장. CSS 우선순위 실습 */
+
+/* 1. 태그 선택자 */
+p {
+    color: blue;
+}
+
+/* 2. 클래스 선택자 */
+.notice {
+    color: green;
+}
+
+/* 3. 아이디 선택자 */
+#important {
+    color: red;
+}
